@@ -1,1 +1,3 @@
-abc
+p.desc {
+    color: #0000FF;
+}
