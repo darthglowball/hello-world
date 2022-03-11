@@ -11,7 +11,22 @@
     </head>
 
     <body>
-        <iframe src="../navigation.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+        <header class="header">
+            <a href="" class="logo">
+                <img src="../logo.png" alt="company logo: consists of ice cream" >
+            </a>
+            <nav class="navbar">
+                <a href="../home/index.html" class="navbarButton">Home</a>
+                <a href="../menu/index.html" class="navbarButton">Menu</a>
+                <a href="../locations/index.html" class="navbar__button">Locations</a>
+                <a href="../contactUs/index.html" class="navbar__button">Contact us</a>
+                <a href="../secret/index.html" class="navbar__button"> Secret</a>
+                <!--        <div class="icons">
+                    <div class="fas fa-bars" class="icon"></div>
+                </div>
+                -->
+            </nav>
+        </header>
         <main class="main">
             <iframe src="../decoration.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
             <div class="main-container">
@@ -27,6 +42,5 @@
                 </div>
             </div>
         </main>
-        <iframe src="../footer.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
     </body>
 </html>
